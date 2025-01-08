@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Create a digital clock that updates every second using setInterval(). -->
+     <h1 id="clock"></h1>
+     <script>
+
+        var clock = document.getElementById("clock");
+        function updateClock() {
+
+            var now = new Date();
+            
+            var formattedTime = now.getHours()+ ":" + now.getMinutes() + ":"+ now.getSeconds();
+            
+            clock.innerHTML = formattedTime;
+        }
+        setInterval(updateClock,100)
+
+     </script>
+</body>
+</html>

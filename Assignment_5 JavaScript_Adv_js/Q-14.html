@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Write a program to find the sum of all elements in an array of numbers -->
+     <script>
+        // Define an array of numbers
+        let numbers = [1, 2, 3, 4, 5]
+        // Use the reduce() method to find the sum of all elements in the array
+        let sum = numbers.reduce((accumulator, current) => {
+            return accumulator + current
+            }, 0)
+        document.write(numbers);
+        document.write("<br/>");
+
+        document.write("Sum is:"+sum);
+     </script>
+</body>
+</html>

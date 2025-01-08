@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Create a JavaScript program to perform the following:
+    • Add, subtract, multiply, and divide two numbers using arithmetic operators.
+    • Use comparison operators to check if two numbers are equal and if
+    onenumber is greater than the other.
+    • Use logical operators to check if both conditions (e.g., a > 10and b < 5)are true.  -->
+    <script>
+        // Define two numbers
+        let num1 = 10;
+        let num2 = 5;
+        document.write("<br>Number1 is:"+num1)
+        document.write("<br>Number2 is:"+num2)
+        // Add two numbers
+        let sum = num1 + num2;
+        let sub = num1 - num2;
+        let mul = num1 * num2;
+        let div = num1 / num2;
+        document.write("<br>Sum is :"+ sum);
+        document.write("<br>Sub is :"+ sub);
+        document.write("<br>mul is :"+ mul);
+        document.write("<br>div is :"+ div);
+        // Check if two numbers are equal
+        
+        document.write("<br>");
+        let isEqual = num1 == num2;
+            if(isEqual)
+            {
+                document.write("<br>num1 and num2 are equal");
+            }
+            else if(num1>num2)
+            {
+                document.write("<br>num1 is greater than num2");   
+            }
+            else{
+                document.write("<br>num2 is greater than num1");
+            }
+        document.write("Use logical operators to check if both conditions (e.g., a > 10and b < 5)are true.<br><br>")
+        let a = 15;
+        let b = 4;
+        if(a>10 && b<5)
+        {   
+            document.write("both Condition are true")
+        }
+
+
+        
+    </script>
+</body>
+
+</html>
